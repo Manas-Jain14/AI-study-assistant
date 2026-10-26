@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from pydantic_ai import Agent
 
 # google:gemini-flash-latest reads the GEMINI_API_KEY environment variable automatically.
-GEMINI_MODEL = "google:gemini-flash-latest"
+GEMINI_MODEL = "google:gemini-3.6-flash"
 
 
 class Flashcard(BaseModel):
